@@ -1,0 +1,29 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed; /* Set the position to fixed */
+    width: 100%; /* Occupy the full width of the viewport */
+    top: 0; /* Place the navigation bar at the top */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav button {
+    background-color: #007BFF; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  nav button.logout {
+    background-color: #FF0000; /* Red */
+  }
